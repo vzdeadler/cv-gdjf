@@ -1,0 +1,16 @@
+.portfolio {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	padding: 0 0 0 40px;
+
+	&__subtitle {
+		margin: 0;
+	}
+
+	&__sectionTitle {
+		font-weight: 300;
+		font-size: 22px;
+		margin: 10px 0;
+	}
+}
