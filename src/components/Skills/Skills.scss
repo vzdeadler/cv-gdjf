@@ -57,6 +57,19 @@
 					}
 				}
 			}
+
+			&__logosWrapper {
+				display: flex;
+				flex-wrap: wrap;
+				max-width: 650px;
+				margin: 20px auto 0;
+
+				img {
+					width: 80px;
+					margin: 20px 40px;
+					cursor: pointer;
+				}
+			}
 		}
 	}
 }

@@ -1,4 +1,5 @@
 import { IconFactory } from '../../factories/icon.factory';
+import { Asset } from '../../utils/Asset';
 import './Skills.scss';
 
 export const Skills = (): JSX.Element => {
@@ -172,6 +173,17 @@ export const Skills = (): JSX.Element => {
 						to streamline workflow, optimize productivity, and achieve project objectives. Skilled in leveraging these tools 
 						to enhance data analysis, content creation, project management, and other essential tasks.
 					</p>
+
+					<div className="skills__content__item__logosWrapper">
+						<img src={Asset.PHOTOSHOP_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.ILLUSTRATOR_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.PREMIERE_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.CHATGPT_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.FIGMA_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.HOOTSUITE_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.WORDPRESS_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.OFFICE_LOGO} alt="Chatgpt logo" />
+					</div>
 				</div>
 			</div>
 		</section>
