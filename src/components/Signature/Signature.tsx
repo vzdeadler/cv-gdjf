@@ -24,7 +24,16 @@ export const Signature = (): JSX.Element => {
 			</div>
 
 			<div className="signature__footer">
-adsad
+				<div className='signature__footer__left'>
+					{IconFactory.instagramIcon()}
+					{IconFactory.linkedInIcon({ className: 'signature__footer__left__linkedIn' })}
+					{IconFactory.behanceIcon({ className: 'signature__footer__left__behance' })}
+				</div>
+
+				<div className='signature__footer__right'>
+					{IconFactory.whatsappIcon()}
+					{IconFactory.telegramIcon({ className: 'signature__footer__right__telegram' })}
+				</div>
 			</div>
 		</section>
 	)

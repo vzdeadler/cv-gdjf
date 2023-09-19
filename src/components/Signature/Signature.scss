@@ -3,9 +3,10 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding: 50px 0 20px 40px;
+	padding: 70px 0 20px;
+	border-top: 1px solid grey;
 	width: 100%;
-	margin: 0 auto;
+	margin: 100px auto 50px;
 	max-width: 1000px;
 	
 	&__content {
@@ -13,7 +14,7 @@
 		border-top-left-radius: 5px;
 		flex: 1;
 		width: 100%;
-		max-width: 1000px;
+		max-width: 950px;
 		gap: 20px;
 		background-color: #fff;
 		padding: 25px;
@@ -33,14 +34,14 @@
 			flex-direction: column;
 
 			h2 {
-				font-size: 40px;
+				font-size: 35px;
 				font-weight: 400;
 				margin: 0 0 5px;
 			}
 
 			&__jobPosition {
 				margin: 0;
-				font-size: 20px;
+				font-size: 17px;
 			}
 
 			&__openingQuoteMark, &__closeQuoteMark {
@@ -84,9 +85,43 @@
 
 	&__footer {
 		flex: 1;
+		display: flex;
+		padding: 15px 25px;
 		width: 100%;
-		max-width: 1000px;
+		max-width: 950px;
 		background-color: #3A3A3A;
 		height: 100px;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+
+		&__left, &__right {
+			color: #fff;
+			display: flex;
+			gap: 15px;
+			cursor: pointer;
+
+			svg {
+				font-size: 35px;
+			}
+
+			&__linkedIn {
+				font-size: 37px !important;
+				margin-top: -1px;
+			}
+
+			&__behance {
+				font-size: 33px !important;
+				margin-top: 1px;
+			}
+
+			&__telegram {
+				font-size: 30px !important;
+				margin-top: 3px;
+			}
+		}
+
+		&__right {
+			margin-left: auto;
+		}
 	}
 }
