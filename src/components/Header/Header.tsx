@@ -1,13 +1,14 @@
+import { Asset } from '../../utils/Asset';
 import './Header.scss';
 
 export const Header = (): JSX.Element => {
 
 	const HEADER_ITEMS = [
 		{ name: 'Home', link: '#' },
-		{ name: 'Portfolio', link: '#' },
-		{ name: 'Education & Experience', link: '#' },
-		{ name: 'Skills', link: '#' },
-		{ name: 'Contact', link: '#' }
+		{ name: 'Portfolio', link: '#profile' },
+		{ name: 'Education & Experience', link: '#experience' },
+		{ name: 'Skills', link: '#skills' },
+		{ name: 'Contact', link: '#contact' }
 	]
 
 	return (
@@ -32,9 +33,15 @@ export const Header = (): JSX.Element => {
 					<p>Community Manager - UI/UX Junior Designer</p>
 				</div>
 
-				<button className="header__nav__download">
-					Download Resume
-				</button>
+				<a
+					className="header__nav__download"					
+					href={Asset.CV}
+					target="_blank"
+				>
+					<button>
+						Download Resume
+					</button>
+				</a>
 			</nav>
 		</div>
 	)

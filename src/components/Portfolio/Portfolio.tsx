@@ -19,9 +19,14 @@ export const Portfolio = (): JSX.Element => {
 					<img src={Asset.FAUXICA_PROJECT} />
 					<img src={Asset.TWO_COIN_PROJECT} />
 				</div>
+
+				<div className="portfolio__uiSection__thirdRow">
+					<img src={Asset.GYM_PROJECT} />
+					<img src={Asset.TWO_COIN_PROJECT} />
+				</div>
 			</div>
 
-			<h3 className="portfolio__sectionTitle">Community Manager</h3>
+			<h3 className="portfolio__sectionTitle portfolio__sectionTitle--cm">Community Manager</h3>
 
 			<div className="portfolio__cmSection">
 				<img src={Asset.SONRISA_PROJECT} />

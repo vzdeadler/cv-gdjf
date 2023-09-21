@@ -3,7 +3,12 @@
 body {
 	/* height: 100vh; */
 	margin: 0;
-	background: linear-gradient(180deg, #012958 0%, #000 260%);
+	background-color: #012958;
+	/* background: linear-gradient(180deg, #012958 0%, #000 260%); */
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body > * {

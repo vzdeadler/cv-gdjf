@@ -35,6 +35,16 @@
 		border-radius: 40px;
 		padding: 0 70px 0 60px;
 		margin: -100px 0 0 0;
+
+		@media only screen and (max-width: 1200px) {
+			border-radius: 30px;
+			padding: 0 50px 0 40px;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			border-radius: 25px;
+			padding: 0 30px 0 20px;
+		}
 	}
 
 	@media only screen and (max-width: 1220px) {
@@ -47,5 +57,14 @@
 
 	&__skills {
     padding: 0 70px 0 60px;
+
+		@media only screen and (max-width: 1200px) {
+			padding: 0 50px 0 40px;
+		}
+
+		@media only screen and (max-width: 1000px) {
+			border-radius: 25px;
+			padding: 0 30px 0 20px;
+		}
 	}
 }

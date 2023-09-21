@@ -175,14 +175,14 @@ export const Skills = (): JSX.Element => {
 					</p>
 
 					<div className="skills__content__item__logosWrapper">
-						<img src={Asset.PHOTOSHOP_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.ILLUSTRATOR_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.PREMIERE_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.PHOTOSHOP_LOGO} alt="Photoshop logo" />
+						<img src={Asset.ILLUSTRATOR_LOGO} alt="Illustrator logo" />
+						<img src={Asset.PREMIERE_LOGO} alt="Premiere logo" />
 						<img src={Asset.CHATGPT_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.FIGMA_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.HOOTSUITE_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.WORDPRESS_LOGO} alt="Chatgpt logo" />
-						<img src={Asset.OFFICE_LOGO} alt="Chatgpt logo" />
+						<img src={Asset.FIGMA_LOGO} alt="Figma logo" />
+						<img src={Asset.HOOTSUITE_LOGO} alt="Hootsuite logo" />
+						<img src={Asset.WORDPRESS_LOGO} alt="Wordpress logo" />
+						<img src={Asset.OFFICE_LOGO} alt="Office logo" />
 					</div>
 				</div>
 			</div>

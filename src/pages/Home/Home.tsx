@@ -10,22 +10,21 @@ export const HomePage = (): JSX.Element => {
 
 	return (
 		<div className="homePage">
-			<Header />
-
-			<div className="homePage__profile">
+			
+			<div id='profile' className="homePage__profile">
 				<Profile />
 				<Portfolio />
 			</div>
 
-			<div className="homePage__experience">
+			<div id='experience' className="homePage__experience">
 				<Experience />
 			</div>
 
-			<div className="homePage__skills">
+			<div id='skills' className="homePage__skills">
 				<Skills />
 			</div>
 
-			<div className="homePage__signature">
+			<div id='contact' className="homePage__signature">
 				<Signature />
 			</div>
 		</div>

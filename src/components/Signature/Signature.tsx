@@ -15,8 +15,12 @@ export const Signature = (): JSX.Element => {
 					<h2>Gabriel David Jiménez</h2>
 					<p className="signature__content__right__jobPosition">Community Manager - UI/UX Junior Designer</p>
 					<p className="signature__content__right__openingQuoteMark">“</p>
-					<p className="signature__content__right__quote">audentes fortuna iuvat</p>
-					<p className="signature__content__right__englishQuote">fortune favors the bold</p>
+					
+					<div className="signature__content__right__quote">
+						<p className="signature__content__right__quote__original">audentes fortuna iuvat</p>
+						<p className="signature__content__right__quote__english">fortune favors the bold</p>
+					</div>
+
 					<p className="signature__content__right__closeQuoteMark">“</p>
 
 					<p className="signature__content__right__email">gabrieljimenezux@gmail.com</p>
