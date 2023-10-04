@@ -8,6 +8,7 @@
 	width: calc(100% - 40px);
 	margin: 100px auto 50px;
 	max-width: 1000px;
+	color: #2d2d2d;
 	
 	&__content {
 		border-top-right-radius: 5px;
@@ -37,6 +38,10 @@
 				@media only screen and (max-width: 700px) {
 					max-width: 150px;
 				}
+			}
+
+			@media only screen and (max-width: 540px) {
+				display: none;
 			}
 		}
 
@@ -118,6 +123,14 @@
 				@media only screen and (max-width: 580px) {
 					margin: 15px 0 0 15px;
 				}
+
+				@media only screen and (max-width: 540px) {
+					margin: 25px 0 0 50px;
+				}
+
+				@media only screen and (max-width: 450px) {
+					margin: 25px 0 0 20px;
+				}
 			}
 
 			&__closeQuoteMark {
@@ -135,6 +148,14 @@
 
 				@media only screen and (max-width: 580px) {
 					margin: 0 10px 0 0;
+				}
+
+				@media only screen and (max-width: 540px) {
+					margin: 0 50px 20px 0;
+				}
+
+				@media only screen and (max-width: 450px) {
+					margin: 0 20px 20px 0;
 				}
 			}
 
@@ -176,7 +197,11 @@
 			&__email {
 				margin: auto 0 0 0;
 				font-size: 25px;
-				color: #D07C00;
+				
+				a {
+					color: #D07C00;
+					text-decoration: none;
+				}
 
 				@media only screen and (max-width: 1050px) {
 					font-size: 20px;
@@ -213,6 +238,10 @@
 			display: flex;
 			gap: 15px;
 			cursor: pointer;
+
+			a {
+				color: inherit;
+			}
 
 			svg {
 				font-size: 35px;

@@ -22,21 +22,38 @@ export const Signature = (): JSX.Element => {
 					</div>
 
 					<p className="signature__content__right__closeQuoteMark">“</p>
-
-					<p className="signature__content__right__email">gabrieljimenezux@gmail.com</p>
+					
+					<p className="signature__content__right__email">
+						<a href="mailto:gabrieljimenezux@gmail.com">
+							gabrieljimenezux@gmail.com
+						</a>
+					</p>
 				</div>
 			</div>
 
 			<div className="signature__footer">
 				<div className='signature__footer__left'>
-					{IconFactory.instagramIcon()}
-					{IconFactory.linkedInIcon({ className: 'signature__footer__left__linkedIn' })}
-					{IconFactory.behanceIcon({ className: 'signature__footer__left__behance' })}
+					<a href="https://www.instagram.com/gabrieldjimenez/" target="_blank">
+						{IconFactory.instagramIcon()}
+					</a>
+					<a href="https://www.linkedin.com/in/gabriel-david-jim%C3%A9nez-4a15a0109/" target="_blank">
+						{IconFactory.linkedInIcon({ className: 'signature__footer__left__linkedIn' })}
+					</a>
+					<a href="https://www.behance.net/gabrieljimnez26" target="_blank">
+						{IconFactory.behanceIcon({ className: 'signature__footer__left__behance' })}
+					</a>
+					<a href="https://dribbble.com/YayielUX" target="_blank">
+						{IconFactory.dribbbleIcon()}
+					</a>
 				</div>
 
 				<div className='signature__footer__right'>
-					{IconFactory.whatsappIcon()}
-					{IconFactory.telegramIcon({ className: 'signature__footer__right__telegram' })}
+					<a href="https://wa.me/584141020099" target="_blank">
+						{IconFactory.whatsappIcon()}
+					</a>
+					<a href="https://t.me/GabrielJimenezF" target="_blank">
+						{IconFactory.telegramIcon({ className: 'signature__footer__right__telegram' })}
+					</a>
 				</div>
 			</div>
 		</section>

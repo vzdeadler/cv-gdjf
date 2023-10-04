@@ -1,6 +1,7 @@
 import { IconBaseProps } from 'react-icons';
 import { FaBehanceSquare } from 'react-icons/fa';
-import { PiGraduationCapFill } from 'react-icons/pi';
+import { HiChevronRight } from 'react-icons/hi';
+import { PiGraduationCapFill, PiDribbbleLogoFill } from 'react-icons/pi';
 import { BsFillBriefcaseFill, BsFillCheckCircleFill, BsTelegram } from 'react-icons/bs';
 import { RiInstagramFill, RiYoutubeFill, RiTwitterFill, RiTiktokFill, RiFacebookCircleFill, RiLinkedinBoxFill, RiDiscordFill, RiThreadsFill, RiSnapchatFill, RiPinterestFill, RiWhatsappFill } from 'react-icons/ri';
 import Icon from '../components/Icon/Icon';
@@ -68,9 +69,17 @@ export namespace IconFactory {
 
 	export const whatsappIcon = (props?: IconBaseProps) => {
 		return Icon(props ? props: {}, RiWhatsappFill);
-	}
+	};
 
 	export const telegramIcon = (props?: IconBaseProps) => {
 		return Icon(props ? props: {}, BsTelegram);
+	};
+
+	export const dribbbleIcon = (props?: IconBaseProps) => {
+		return Icon(props ? props: {}, PiDribbbleLogoFill);
+	};
+
+	export const rightIcon = (props?: IconBaseProps) => {
+		return Icon(props ? props: {}, HiChevronRight);
 	}
 }
