@@ -44,18 +44,18 @@ export const Portfolio = (): JSX.Element => {
 			<h3 className="portfolio__sectionTitle portfolio__sectionTitle--cm">Community Manager</h3>
 
 			<div className="portfolio__cmSection">
-				<a href="https://www.instagram.com/doctorsonrisaoficial/" target="_blank">
+				<a href="https://www.behance.net/gallery/181391853/Doctor-Sonrisa-Community-Management" target="_blank">
 					<h3>@doctorsonrisaoficial</h3>
 					<img src={Asset.SONRISA_PROJECT} />
 				</a>
-				<a href="https://www.instagram.com/linguademy_es/" target="_blank">
+				<a href="https://www.behance.net/gallery/181456755/Linguademy-Community-Management" target="_blank">
 					<h3>@linguademy_es</h3>
 					<img src={Asset.LINGUADEMY_PROJECT} />
 				</a>
 			</div>
 
 			<a className="portfolio__seeMore" href="https://www.behance.net/gabrieljimnez26" target="_blank">
-				Ver en behance
+				More on behance
 				{IconFactory.rightIcon()}
 			</a>
 		</section>
